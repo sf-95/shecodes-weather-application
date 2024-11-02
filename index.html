@@ -4,37 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Weather Application</title>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>🌤️ 12°C</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌤️ 12°C</div>
+      </main>
 
-    <footer>
-      This project is coded by
-      <a href="https://github.com/sf-95">Sarah Farchoukh</a>
-      <a
-        href="https://github.com/sf-95/shecodes-weather-application"
-        target="_blank"
-        >is open-sourced in GitHub</a
-      >, and
-      <a href="https://scodes-weather-application.netlify.app/" target="_blank"
-        >hosted by Netlify</a
-      >
-    </footer>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/sf-95">Sarah Farchoukh</a>, is
+        <a
+          href="https://github.com/sf-95/shecodes-weather-application"
+          target="_blank"
+          >open-sourced in GitHub</a
+        >, and
+        <a
+          href="https://scodes-weather-application.netlify.app/"
+          target="_blank"
+          >hosted by Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
